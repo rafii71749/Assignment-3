@@ -34,6 +34,7 @@
                 'secondary-bg': '#212121',
                 'dark-gray': '#494949',
                 'light-gray': '#737373',
+                'light-green': 'rgba(171, 239, 95, 0.5)',
               }
             }
           }
@@ -43,9 +44,11 @@
 </head>
 <body class="font-manrope">
     
-    <!-- Hero Section -->
-    <header class="lg:container lg:mx-auto mt-14">
-        <nav>
+    <!-- Header Section -->
+    <header class=" lg:container lg:mx-auto mt-14">
+
+        <!--navbar  -->
+        <nav class="">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 font-bold bg-primary-bg rounded-full p-1	">
@@ -55,7 +58,7 @@
                   <a class=" ml-2 font-extrabold	 text-secondary-bg text-4xl ">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-base text-light-gray">
+                  <ul class="menu menu-horizontal px-1 gap-x-10 text-base text-light-gray">
                     <li class="font-bold text-dark-gray"><a>Home</a></li>
                     <li><a>Services</a></li>
                     <li><a>Portfolio</a></li>
@@ -81,7 +84,26 @@
                 </div>
               </div>
         </nav>
+
+        <!-- hero Section -->
+
+        <!-- Image -->
+         <div class=" flex justify-center mt-10">
+            <img src="/assets/banner.png" alt="">
+         </div>
+
+         <!-- Text Section -->
+          <div class="text-center">
+            <h1 class="text-6xl	font-extrabold secondary-bg ">A barn house of this design has a <br>striking appearance</h1>
+            <p class="text-base text-light-gray mt-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+            <button class="btn bg-light-green border-primary-bg	 rounded-full font-extrabold text-xl mt-10">Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 font-bold bg-primary-bg text-secondary-bg  rounded-full p-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></button>
+          </div>
+
     </header>
+
+    
     
 </body>
 </html>
